@@ -2,7 +2,6 @@ import './App.css';
 import React from 'react'
 import {data} from './mockData'
 import { MdChevronLeft, MdChevronRight } from 'react-icons/md'
-import scrollbarHide from 'tailwind-scrollbar-hide';
 
 const App = () => {
 
@@ -20,7 +19,8 @@ const App = () => {
     <>
       <img 
         className='w-full h-[440px] object-cover' 
-        src='https://images.unsplash.com/photo-1504805572947-34fad45aed93?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2607&q=80' />
+        src='https://imagenesgratis.com.es/wp-content/uploads/2015/12/Cloud-Sky-Wallpaper-Image-Picture.jpg'
+        alt='/' />
       <div 
         className='relative flex items-center' >
         <MdChevronLeft 
@@ -29,7 +29,7 @@ const App = () => {
           size={40} />
         <div 
           id='slider' 
-          className='w-full h-full overflow-x-scroll scroll whitespace-nowrap scroll-smooth scrollbar-hide ' >
+          className='w-full h-full overflow-x-scroll scroll whitespace-nowrap scroll-smooth scrollbar-hide' >
           {data.map((item)=> (
             <img 
               className='w-[220px] inline-block p-2 cursor-pointer hover:scale-105 ease-in-out duration-300' 
