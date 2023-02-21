@@ -40,7 +40,7 @@
     max-width: 600px;
     width: 100%;
     position: fixed;
-    top: 40%;
+    top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
     display: flex;
@@ -57,7 +57,7 @@
   
   .modalRight1 {
     width: 100%;
-    height: auto;
+    height: 50vh;
     text-align: justify;
     justify-content: justify;
   }
