@@ -9,7 +9,7 @@ const Modal = ({open, onClose}) => {
         e.stopPropagation()
         }} className="modalContainer1">
             
-                <img src="https://upload.travelawaits.com/ta/uploads/2021/04/a-beautiful-beach-in-the-seyc469471-1024x683.jpg" alt="/" className='img1' />
+                <img src="https://images.pexels.com/photos/1591375/pexels-photo-1591375.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="/" className='img1' />
             
             <div className="modalRight1">
                 <p onClick={onClose} className="closeBtn1">X</p>
